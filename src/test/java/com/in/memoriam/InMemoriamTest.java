@@ -5,26 +5,26 @@ import org.junit.Test;
 
 public class InMemoriamTest {
 
-    private InMemoriam inMemoriam = new InMemoriam();
+    private static final int ID = 123;
+
+    private final InMemoriam inMemoriam = new InMemoriam();
 
     @Test
     public void shouldWriteObjects() {
-        inMemoriam.write("some object");
+        inMemoriam.write(ID, "some object");
     }
 
     @Test
     public void shouldDeleteObjects() {
-        inMemoriam.delete(new ID() {
-        });
+        inMemoriam.delete(123);
     }
 
     @Test
     public void shouldOnlyReadFromAfterLife() {
         try {
-            inMemoriam.read(new Criteria() {
-            });
+            inMemoriam.read(123);
         } catch (RuntimeException e) {
-            Assert.assertEquals("Read allowed only in afterlife.", e.getMessage());
+            Assert.assertEquals("Read is allowed only in afterlife!", e.getMessage());
         }
     }
 
