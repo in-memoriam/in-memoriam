@@ -18,5 +18,6 @@ public class InMemoriam {
 
 ###Features:
 - Using cutting-edge persistence algorithms
-- High quality, 100% test coverage!
+- High quality, 100% test coverage
 - Optimized for performance using Zero GC Pressure (TM) technology
+- Flawless integration with any other Java technology
