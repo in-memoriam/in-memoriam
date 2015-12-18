@@ -1,5 +1,5 @@
 # in-memoriam - write now, read in the afterlife
-###Lightweight, super fast, atomic, transactional in-memory database.
+###Lightweight, super fast, ACID transactional in-memory database!
 ###A place where objects lay to rest.
 ###Full source code:
 ```java
@@ -15,3 +15,8 @@ public class InMemoriam {
 
 }
 ```
+
+###Features:
+- Using cutting-edge persistence algorithms
+- High quality, 100% test coverage!
+- Optimized for performance using Zero GC Pressure (TM) technology
