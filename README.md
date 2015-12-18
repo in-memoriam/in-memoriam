@@ -17,7 +17,8 @@ public class InMemoriam {
 ```
 
 ###Features:
-- Using cutting-edge persistence algorithms
+- Read and write at the speed of light!
+- Using cutting-edge mathematically proven persistence algorithms
 - High quality, 100% test coverage
 - Optimized for performance using Zero GC Pressure (TM) technology
-- Flawless integration with any other Java technology
+- Integrates well with any other Java technology
