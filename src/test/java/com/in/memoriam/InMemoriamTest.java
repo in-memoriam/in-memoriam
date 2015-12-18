@@ -16,13 +16,13 @@ public class InMemoriamTest {
 
     @Test
     public void shouldDeleteObjects() {
-        inMemoriam.delete(123);
+        inMemoriam.delete(ID);
     }
 
     @Test
     public void shouldOnlyReadFromAfterLife() {
         try {
-            inMemoriam.read(123);
+            inMemoriam.read(ID);
         } catch (RuntimeException e) {
             Assert.assertEquals("Read is allowed only in afterlife!", e.getMessage());
         }
