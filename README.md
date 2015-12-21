@@ -1,13 +1,17 @@
-# in-memoriam - write now, read in the afterlife
+# in-memoriam - write now, read in the afterlife :P
 ###Lightweight, super fast, ACID transactional in-memory database!
 ###It is RESTful - A place where objects lay to rest.
-###Full source code:
+###Full implementation details:
 ```java
 public class InMemoriam {
 
-    public void write(long id, Object o) {}
+    public void write(long id, Object o) {
+        // do nothing, enjoy life!
+    }
 
-    public void delete(long id) {}
+    public void delete(long id) {
+        // do nothing, enjoy life!
+    }
 
     public void read(long id) {
         throw new RuntimeException("Read is allowed only in afterlife!");
