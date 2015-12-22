@@ -25,4 +25,7 @@ public class InMemoriam {
 - Using cutting-edge mathematically proven persistence algorithms
 - High quality, 100% test coverage
 - Optimized for performance using Zero GC Pressure (TM) technology
+- Multi dimensional partitioning
+- Layered sharding
+- Intuitive replication backed by "survival instinct" replication algorithms
 - Integrates well with any other Java technology
