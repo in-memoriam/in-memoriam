@@ -29,3 +29,4 @@ public class InMemoriam {
 - Layered sharding
 - Intuitive replication backed by "survival instinct" replication algorithms
 - Integrates well with any other Java technology
+- Next-generation non-relational NoSQL database
