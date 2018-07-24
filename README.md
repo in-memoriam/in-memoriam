@@ -1,7 +1,7 @@
 # in-memoriam - write now, read in the afterlife :P
-###Lightweight, super fast, ACID transactional in-memory database!
-###It is RESTful - A place where objects lay to rest.
-###Full implementation details:
+### Lightweight, super fast, ACID transactional in-memory database!
+### It is RESTful - A place where objects lay to rest.
+### Full implementation details:
 ```java
 public class InMemoriam {
 
@@ -20,7 +20,7 @@ public class InMemoriam {
 }
 ```
 
-###Features:
+### Features:
 - Read and write at the speed of light!
 - Using cutting-edge mathematically proven persistence algorithms
 - High quality, 100% test coverage
